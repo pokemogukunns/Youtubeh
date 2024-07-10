@@ -1760,10 +1760,8 @@ from .rtvcplay import (
 from .rtve import (
     RTVEALaCartaIE,
     RTVEAudioIE,
-    RTVEInfantilIE,
     RTVELiveIE,
     RTVETelevisionIE,
-    RTVEPlayIE,
 )
 from .rtvs import RTVSIE
 from .rtvslo import (
