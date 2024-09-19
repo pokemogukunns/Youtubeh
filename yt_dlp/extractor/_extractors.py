@@ -2381,6 +2381,7 @@ from .voxmedia import (
     VoxMediaIE,
     VoxMediaVolumeIE,
 )
+from .vrporn import VRPornIE
 from .vrt import (
     VRTIE,
     DagelijkseKostIE,
