@@ -1,1 +1,11 @@
-
+services:
+  - name: yt-dip
+    type: web
+    env: docker
+    branch: main  # デプロイするブランチを指定
+    dockerfilePath: ./Dockerfile  # Dockerfileのパス
+    autoDeploy: true  # GitHubのプッシュ時に自動デプロイ
+    plan: free  # 無料プランを使用
+    envVars:
+      - key: SERVER_PORT
+        value: 8000  # 使用するポート（適宜変更）
